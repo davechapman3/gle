@@ -29,11 +29,11 @@ PROTON_CHARGE_OVER_E   = +1.0e+00
 
 ! Standard of temperature and pressure according to the NIST definition (20 degrees C and 1 atm) in units of K and Pa.
 NORMAL_TEMPERATURE = 2.9315e+02
-NORMAL_PRESSURE = 1.01325e+05
+NORMAL_PRESSURE    = 1.01325e+05
 
 ! Standard of temperature and pressure according to the IUPAC definition (0 degrees C and 1 bar) in units of K and Pa.
 STANDARD_TEMPERATURE = 2.7315e+02
-STANDARD_PRESSURE = 1.0e+05
+STANDARD_PRESSURE    = 1.0e+05
 
 !######################################################
 ! -- Constants with experimentally measured values -- #
@@ -60,7 +60,7 @@ BOLTZMANN_CONSTANT_SQR = BOLTZMANN_CONSTANT * BOLTZMANN_CONSTANT
 ELECTRON_MASS_SQR      = ELECTRON_MASS * ELECTRON_MASS
 
 ! Electric constant (permittivity of vacuum) in units of F/m.
-ELECTRIC_CONSTANT = 1.0 / (MAGNETIC_CONSTANT * SPEED_OF_LIGHT ** 2)
+ELECTRIC_CONSTANT = 1.0 / (MAGNETIC_CONSTANT * SPEED_OF_LIGHT^2)
 
 ! Coulomb's constant in units of kg.m^3/s^4/A^2.
 COULOMB_CONSTANT     = 1.0 / (FOUR_PI * ELECTRIC_CONSTANT)
@@ -106,4 +106,4 @@ STEFAN_BOLTZMANN_CONSTANT = PI_SQR * BOLTZMANN_CONSTANT_SQR * BOLTZMANN_CONSTANT
 UNIT_COULOMB_POTENTIAL = ELEMENTARY_CHARGE_SQR * COULOMB_CONSTANT
 
 ! The constant \alpha = \cbrt(4/9\pi) is encountered often in function related to solid state physics.
-SOLID_STATE_ALPHA = (4.0 / NINE_PI)**(1.0/3.0)
+SOLID_STATE_ALPHA = (4.0 / NINE_PI)^(1.0/3.0)
