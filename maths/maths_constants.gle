@@ -1,0 +1,49 @@
+
+!############################
+! -- Stuff to do with pi -- #
+!############################
+
+THIRD_PI       = PI / 3.0
+HALF_PI        = 0.5 * PI
+FOUR_THIRDS_PI = 4.0 * THIRD_PI
+TWO_PI         = 2.0 * PI
+THREE_PI       = 3.0 * PI
+FOUR_PI        = 2.0 * TWO_PI
+FIVE_PI        = 5.0 * PI
+NINE_PI        = 3.0 * THREE_PI
+PI_SQR         = PI * PI
+PI_CUB         = PI_SQR * PI
+TWO_PI_SQR     = 2.0 * PI_SQR
+FOUR_PI_SQR    = 4.0 * PI_SQR
+CBRT_PI        = PI^(1.0/3.0)
+SQRT_HALF_PI   = sqrt(HALF_PI)
+SQRT_PI        = sqrt(PI)
+SQRT_TWO_PI    = sqrt(TWO_PI)
+
+!#####################################
+! -- Square roots and other surds -- #
+!#####################################
+
+SQRT_TWO   = sqrt(2.0)
+SQRT_THREE = sqrt(3.0)
+SQRT_FIVE  = sqrt(5.0)
+SQRT_SIX   = SQRT_TWO * SQRT_THREE
+SQRT_SEVEN = sqrt(7.0)
+SQRT_EIGHT = 2.0 * SQRT_TWO
+SQRT_TEN   = SQRT_TWO * SQRT_FIVE
+CBRT_TWO   = 2.0^(1.0/3.0)
+CBRT_THREE = 3.0^(1.0/3.0)
+
+!###########################
+! -- Natural logarithms -- #
+!###########################
+
+LN_TWO = log(2.0)
+LN_TEN = log(10.0)
+
+!###########################################
+! -- Fundamental mathematical constants -- #
+!###########################################
+
+EULER_MASCHERONI = 0.57721566490153286060651209008240243104215933593992
+GOLDEN_RATIO     = 0.5 * (1.0 + SQRT_FIVE)
